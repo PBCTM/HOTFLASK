@@ -1,0 +1,8 @@
+__pycache__
+.vscode
+chromdb
+python
+mcp_server.py
+rag.py
+test.py
+requirements1.txt
