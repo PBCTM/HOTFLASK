@@ -15,3 +15,9 @@ def test2():
     print(output.json(),output.status_code)
     assert output.json() == 14.0
     assert output.status_code == 209
+
+def test3():
+    output=client.post(url="/sum",json={"a": 50, "b":9})
+    print(output.json(),output.status_code)
+    assert output.json() == 59.0
+    assert output.status_code == 209
